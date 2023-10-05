@@ -1,2 +1,32 @@
 /* Paleta de cores
 VERDE: */
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body,html{
+    background-color: blue;
+    width: 100vh;
+    height: 100vw;
+}
+main{
+    width: 100vh;
+    height: 100vw;
+    position: relative;
+}
+div#imagem{
+    background: rgb(100, 14, 82);
+    height: 200px;
+}
+div#formulario{
+    background-color: white;
+    width: 250px;
+    height: 250px;
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
