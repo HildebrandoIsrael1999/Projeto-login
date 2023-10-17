@@ -7,26 +7,18 @@ VERDE: */
     box-sizing: border-box;
 }
 body,html{
-    background-color: blue;
+    background-color: rgb(226, 223, 226);
     width: 100vh;
     height: 100vw;
 }
 main{
     width: 100vh;
     height: 100vw;
-    position: relative;
+    position:relative;
+    
 }
-div#imagem{
-    background: rgb(100, 14, 82);
-    height: 200px;
-}
-div#formulario{
-    background-color: white;
-    width: 250px;
-    height: 250px;
-    border-radius: 20px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
+login{
+   background-color: rgb(80, 155, 155);
+   width: 250px;
+   height: 500px;
 }
